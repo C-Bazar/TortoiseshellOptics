@@ -78,3 +78,116 @@ header .flex {
   text-align: center;
   line-height: 1.2;
 }
+.store-info {
+  justify-content: center;
+  padding-top: 3rem;
+}
+div.title {
+  background-color: cadetblue;
+  width: 10rem;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0.5rem 1.25rem;
+  color: white;
+}
+.info {
+  width: 35%;
+  padding: 0 2.5%;
+}
+p {
+  padding-top: 1rem;
+  line-height: 1.2;
+}
+footer {
+  width: 100%;
+  background-color: azure;
+  margin-top: 5rem;
+  padding: 4rem 0;
+}
+footer div {
+  justify-content: flex-start;
+  align-items: center;
+}
+footer img {
+  height: 1.5rem;
+  padding-left: 4rem;
+  padding-right: 1rem;
+}
+.mobile {
+  display: none;
+}
+@media only screen and (max-width: 1024px) {
+  .container {
+    width: 100%;
+  }
+  header {
+    height: 22rem;
+    padding-top: 0px;
+  }
+  .main-banner {
+    margin-top: 5rem;
+    margin-right: 2rem;
+    font-size: 1.33rem;
+    padding: 0.75rem 4rem;
+  }
+}
+@media only screen and (max-width: 470px) {
+  header {
+    height: 20rem;
+    background-position: 20%;
+  }
+  header .flex {
+    justify-content: center;
+    align-items: center;
+  }
+  .main-banner {
+    margin-top: 9rem;
+    padding: 1rem 0;
+    font-size: 1rem;
+    text-align: center;
+    width: 100%;
+    margin-right: 0;
+  }
+  .products {
+    flex-direction: column;
+    padding-top: 1.54rem;
+    align-items: center;
+  }
+  .product {
+    padding-top: 1.54rem;
+    justify-content: space-around;
+  }
+  .product div {
+    font-size: 0.77rem;
+  }
+  .store-info {
+    padding-top: 3.77rem;
+    flex-direction: column;
+  }
+  .info, div.title {
+    width: 100%;
+  }
+  div.title {
+    text-align: center;
+  }
+  p {
+    margin-bottom: 4rem;
+    font-size: 0.77rem;
+  }
+  footer {
+    margin-top: 0;
+  }
+  .desktop {
+   display: none;
+  }
+  footer img {
+    margin: 0 auto;
+    padding: 0;
+  }
+  nav img {
+    padding-left: 0;
+  }
+  .mobile {
+    display: block;
+  }
+}
